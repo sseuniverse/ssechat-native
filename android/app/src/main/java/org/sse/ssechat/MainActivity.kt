@@ -18,5 +18,5 @@ class MainActivity : ReactActivity() {
     override fun createReactActivityDelegate(): ReactActivityDelegate =
         DefaultReactActivityDelegate(this, mainComponentName, fabricEnabled)
 
-    override fun getMainComponentName(): String = "MoonMeet"
+    override fun getMainComponentName(): String = "SSEChat"
 }

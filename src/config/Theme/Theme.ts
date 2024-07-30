@@ -7,7 +7,7 @@ import {
   MD3LightTheme as PaperMD3LightTheme,
 } from "react-native-paper";
 
-const MoonMeetDarkTheme = {
+const SSEChatDarkTheme = {
   ...PaperMD3DarkTheme,
   ...NavigationDarkTheme,
   colors: {
@@ -16,7 +16,7 @@ const MoonMeetDarkTheme = {
   },
 };
 
-const MoonMeetLightTheme = {
+const SSEChatLightTheme = {
   ...PaperMD3LightTheme,
   ...NavigationDefaultTheme,
   colors: {
@@ -26,4 +26,4 @@ const MoonMeetLightTheme = {
   version: 3,
 };
 
-export { MoonMeetDarkTheme, MoonMeetLightTheme };
+export { SSEChatDarkTheme, SSEChatLightTheme };

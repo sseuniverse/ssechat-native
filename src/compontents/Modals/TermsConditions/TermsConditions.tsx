@@ -191,7 +191,7 @@ const TermsConditions = (props: TermsAndConditionProps) => {
             Contact Us: If you have any questions or suggestions about Moon Meet
             Terms & Conditions, do not hesitate to contact me on:
           </Text>
-          <Text style={styles.subText}>email: contact.moonmeet@gmail.com</Text>
+          <Text style={styles.subText}>email: contact.ssechat@gmail.com</Text>
           <Text style={styles.subText}>phone: +216 55063898</Text>
         </ScrollView>
       </BottomSheetView>

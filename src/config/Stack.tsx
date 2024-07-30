@@ -41,7 +41,7 @@ import { COLORS, FONTS } from "./Miscellaneous";
 import SetupPasscodeScreen from "../screens/SetupPasscodeScreen.tsx";
 import VerifyPasscodeScreen from "../screens/VerifyPasscodeScreen.tsx";
 import { fontValue } from "./Dimensions";
-import { MoonMeetDarkTheme } from "./Theme/Theme.ts";
+import { SSEChatDarkTheme } from "./Theme/Theme.ts";
 import { ThemeContext } from "./Theme/Context.ts";
 import DarkModeSettings from "../screens/DarkModeScreen";
 import PrivacySecurityScreen from "../screens/PrivacySecurityScreen.tsx";
@@ -141,7 +141,7 @@ const StackNavigator = () => {
         }
         routeNameRef.current = currentRouteName;
       }}
-      theme={isThemeDark ? MoonMeetDarkTheme : DefaultTheme}
+      theme={isThemeDark ? SSEChatDarkTheme : DefaultTheme}
     >
       <Stack.Navigator>
         <Stack.Screen
